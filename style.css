@@ -1,0 +1,30 @@
+body{
+  font-family: 'Arima', cursive;
+  margin: 0;
+}
+
+h1{font-size: 50px;}
+
+.orange-color{
+  color: orange;
+}
+section{
+  display: flex;
+}
+.half-Width{
+width: 50%;
+padding-left: 5%;
+}
+.half-Width img{
+width: 100%;
+}
+.link-button{
+  text-decoration: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(orange, red);
+}
+.top-banner{
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
