@@ -8,12 +8,14 @@ h1{font-size: 50px;}
 .orange-color{
   color: orange;
 }
-section{
+.flxiable-container{
   display: flex;
+margin-bottom:100%px;
 }
 .half-Width{
 width: 50%;
 padding-left: 5%;
+padding-right: 5%;
 }
 .half-Width img{
 width: 100%;
@@ -27,4 +29,39 @@ width: 100%;
 .top-banner{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.navy-color{
+  color: navy;
+}
+.Dream-Big{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+h2{
+  font-size: 40px;
+}
+h4{
+  color: lightseagreen;
+}
+.Experiences-item{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  box-shadow: 10px 10px 50px grey;
+  border-radius: 15px;
+  border-left: 5px solid blue;
+}
+.Experiences-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#Baby-Web-Developer{
+  border-left: 5px solid  tomato;
+}
+footer p{
+  text-align: center;
 }
